@@ -1,0 +1,14 @@
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../image/book_pages.jpg") no-repeat fixed center center;
+}
+
+#page1 {
+    position: fixed;
+    color: #19aa3c;
+    font-size: 200%;
+    top: 10%;
+    left: 45%;
+}

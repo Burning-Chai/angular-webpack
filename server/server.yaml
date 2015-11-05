@@ -1,0 +1,8 @@
+- request:
+    url: ^/api/users$
+    method: GET
+  response:
+    headers:
+      Content-Type: "application/json; charset=utf-8"
+    status: 200
+    file: api/users.json

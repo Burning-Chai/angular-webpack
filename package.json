@@ -1,0 +1,26 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --colors --inline",
+    "stub": "stubby -d server/server.yaml",
+    "serve:windows": "start npm run stub && npm run dev",
+    "serve:mac": "npm run stub & npm run dev",
+    "build": "rm -f app/bundle.js && webpack --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.22.0",
+    "file-loader": "^0.8.4",
+    "html-loader": "^0.3.0",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6"
+  }
+}
